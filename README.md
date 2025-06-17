@@ -1,4 +1,4 @@
-# DROP – Long-Range Aerial Vessel Deployment System
+# DROP 
 
 **DROP** (Deployment and Recovery Optimization Platform) is a long-range aerial deployment system developed by SHC for precision payload delivery. It features autonomous altitude-triggered release mechanisms with telemetry and multi-stage deployment capabilities.
 
@@ -33,17 +33,17 @@
 git clone https://github.com/yourusername/drop.git
 cd drop
 ```
-2. Open the Firmware
+### 2. Open the Firmware
 Open /firmware/ in PlatformIO or Arduino IDE
 
 Upload firmware to the deployment controller
 
-3. Review Hardware Design
+### 3. Review Hardware Design
 Open /hardware/ in KiCad 7.0 or later
 
 PCB schematics and layout included
 
-# Bill of Materials
+## Bill of Materials
 -TBD
 
 .....

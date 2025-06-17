@@ -1,7 +1,49 @@
-# DROP
-documentation for the recurrent versions of the DROP device
+# DROP 
 
-this device was originally created by Adain Barten in 2021 to be used as a remote vessel deployment device
+**DROP** (Deployment and Recovery Optimization Platform) is a long-range aerial deployment system developed by SHC for precision payload delivery. It features autonomous altitude-triggered release mechanisms with telemetry and multi-stage deployment capabilities.
 
-since then, it has been used upwards of 20 times and is in need of repairs and maintenance. With no previous documentation,
-it has become the subject of a revamp that will allow for SHC to expand its deployment range along with upgraded recovery systems.
+---
+
+## 🔧 Features
+
+-  **Tri-redundant altitude-based deployment system**
+-  **Dual-band telemetry** (915 & 433 Mhz)
+-  **Multi-stage release mechanism** for sequential payload drops
+-  Designed for long-duration, autonomous aerial missions
+
+---
+
+## 🗂️ Folder Structure
+
+| Folder       | Purpose                                         |
+|--------------|-------------------------------------------------|
+| `/firmware`  | Embedded code for main controller               |
+| `/hardware`  | Schematics and PCB layout files (KiCad)         |
+| `/enclosure` | 3D printable cases or brackets for deployment   |
+| `/docs`      | Wiring diagrams, deployment logic, images       |
+| `/test`      | Test scripts, validation logs, diagnostics      |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/drop.git
+cd drop
+```
+### 2. Open the Firmware
+Open /firmware/ in PlatformIO or Arduino IDE
+
+Upload firmware to the deployment controller
+
+### 3. Review Hardware Design
+Open /hardware/ in KiCad 7.0 or later
+
+PCB schematics and layout included
+
+## Bill of Materials
+-TBD
+
+.....

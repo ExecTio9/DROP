@@ -30,7 +30,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/drop.git
+git clone https://github.com/ExecTio9/drop.git
 cd drop
 ```
 ### 2. Open the Firmware
